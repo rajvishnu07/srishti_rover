@@ -1,7 +1,7 @@
 /* Motor Control using Teleop twist keyboard for Cytron Drivers
-Author: Vishnuraj A and Muhammed Zain
-Date : 03/06/2024
-Last update : 14/10/2024 */
+Author: Vishnuraj A 
+Date : 30/10/2024
+Last update : //2024 */
 
 
 #include <ros.h>
@@ -246,10 +246,6 @@ void calc_vel_right_wheel(){
     pwmRightReq = -basePWM;
   }
 
-  if (cmdVel.linear.x>=0){
-    if (cmdVel.linear.)
-  }
-l
   // Check if we need to turn
   if (cmdVel.angular.z != 0.0) {
     if (cmdVel.linear.x >= 0) { // Forward motion
@@ -299,16 +295,13 @@ l
   }
   if (abs(pwmRightReq) < PWM_MIN) {
     pwmRightReq = 0;
-   void calc_pwm_values(const geometry_msgs::Twist &cmdVel) {
   }
-
   // Cap PWM values at maximum limits
   pwmLeftReq = (pwmLeftReq > PWM_MAX) ? PWM_MAX : pwmLeftReq;
   pwmRightReq = (pwmRightReq > PWM_MAX) ? PWM_MAX : pwmRightReq;
   pwmLeftReq = (pwmLeftReq < -PWM_MAX) ? -PWM_MAX : pwmLeftReq;
   pwmRightReq = (pwmRightReq < -PWM_MAX) ? -PWM_MAX : pwmRightReq;
 }
-
 
 void set_pwm_values() {
  
