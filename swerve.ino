@@ -56,7 +56,7 @@ double pwmRRYDriveReq = 0;
 #define pwm7 12 // Rear-left Z
 #define dir7 14
 #define pwm8 15 // Rear-left Y
-#define dir8 16
+#define dir8 18
 
 // Connection state management
 enum states {
