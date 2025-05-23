@@ -1,3 +1,8 @@
+/* Swerve.ino This code was written by Vishnuraj A. Contains the velocity logic and control of Swerve drive on robots using ROS
+
+Date uploaded: 20/05/2025
+Date updated: 23/05/2025*/
+
 #include <micro_ros_arduino.h>
 #include <stdio.h>
 #include <rcl/rcl.h>
