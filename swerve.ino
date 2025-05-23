@@ -49,13 +49,13 @@ double pwmRRYDriveReq = 0;
 #define dir3 5
 #define pwm4 6  // Front-left Y
 #define dir4 7
-#define pwm5 8 // Rear-left Z
+#define pwm5 8 // Rear-right Z
 #define dir5 9
-#define pwm6 10 // Rear-left Y
+#define pwm6 10 // Rear-right Y
 #define dir6 11
-#define pwm7 12 // Rear-right Z
+#define pwm7 12 // Rear-left Z
 #define dir7 14
-#define pwm8 15 // Rear-right Y
+#define pwm8 15 // Rear-left Y
 #define dir8 16
 
 // Connection state management
